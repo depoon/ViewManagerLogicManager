@@ -13,7 +13,7 @@ class TemplateFolderMaker
 
 	def makeFolderForTemplate(controllerOutputName)
 		FileUtils::mkdir_p "./Output/#{controllerOutputName}/ViewController"
-		FileUtils::mkdir_p "./Output/#{controllerOutputName}/Logic"
+		FileUtils::mkdir_p "./Output/#{controllerOutputName}/LogicManager"
 		FileUtils::mkdir_p "./Output/#{controllerOutputName}/UnitTests"
 		FileUtils::mkdir_p "./Output/#{controllerOutputName}/View/MainView"
 		FileUtils::mkdir_p "./Output/#{controllerOutputName}/View/ViewManager"
