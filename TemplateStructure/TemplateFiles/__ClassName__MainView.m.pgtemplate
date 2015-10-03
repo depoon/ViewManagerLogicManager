@@ -4,6 +4,9 @@
 #import "__ClassName__MainView.h"
 #import "__ClassName__ViewManager.h"
 
+@interface __ClassName__MainView()
+@end
+
 @implementation __ClassName__MainView
 
 
