@@ -44,6 +44,10 @@
     mainView.viewManager = self;
 }
 
+- (void) viewWillAppear:(BOOL)animated{
+    
+}
+
 
 #pragma  mark - Logic Manager Delegate
 

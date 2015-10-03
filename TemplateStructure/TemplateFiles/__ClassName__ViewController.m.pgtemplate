@@ -48,6 +48,10 @@
     [self.viewManager setupView: self.view];
 }
 
+- (void) viewWillAppear:(BOOL)animated{
+    [super viewWillAppear: animated];
+    [self.viewManager viewWillAppear: animated];
+}
 
 
 

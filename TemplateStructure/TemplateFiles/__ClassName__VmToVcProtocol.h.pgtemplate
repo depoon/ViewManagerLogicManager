@@ -9,4 +9,5 @@
 @protocol __ClassName__VmToVcProtocol <NSObject>
 - (void) setupView: (UIView *) view;
 - (void) setViewManagerDelegate: (NSObject <__ClassName__ViewManagerDelegate> *) delegate;
+- (void) viewWillAppear:(BOOL)animated;
 @end
