@@ -1,8 +1,8 @@
 //  __ClassName__VmToVcProtocol.h
 //  __ClassName__
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "__ClassName__DomainObject.h"
 #import "__ClassName__ViewManagerDelegate.h"
 
 
